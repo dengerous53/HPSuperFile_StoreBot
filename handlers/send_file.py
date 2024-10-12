@@ -8,7 +8,7 @@ from handlers.helpers import str_to_b64
 
 async def reply_forward(message: Message, file_id: int):
     try:
-        drram = await message.reply_text(
+        dream = await message.reply_text(
             f"**Files will be Deleted After 01 min ⏰**\n",
             disable_web_page_preview=True, quote=True)
     except FloodWait as e:
