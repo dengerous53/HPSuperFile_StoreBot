@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 async def reply_forward(message: Message, file_id: int):
     try:
         reply = await message.reply_text(
-            f"**Files will be Deleted After 01 min **",
+            f"**Files will be Deleted After 01 min ⏰**",
             disable_web_page_preview=True,
             quote=True
         )
@@ -48,7 +48,7 @@ async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
     try:
         sent_message = await media_forward(bot, user_id, file_id)
         reply_message = await reply_forward(sent_message, file_id)
-        reply_message_text = "Thanks for using me "
+        reply_message_text = "**File Deleted By @Moviesss4ers 🏆**"
         asyncio.create_task(delete_after_delay(reply_message, sent_message, 60, reply_message_text))
     except Exception as e:
         logging.error(f"Error: {e}")
