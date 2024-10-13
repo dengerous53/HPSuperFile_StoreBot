@@ -34,7 +34,7 @@ AS i Said, Send me any File & It will be uploaded in My Database & You will Get 
 │
 ├🔸👨‍💻 **Owner:** [𝐒𝐡𝐮𝐛𝐡𝐚𝐦](https://t.me/Nexus_Shubhu) 
 │
-├🔹👥 **Powered By:** [𝐌𝐨𝐯𝐢𝐞𝐬𝐬𝐬𝟒𝐞𝐫𝐬](https://t.me/Moviesss4ers)
+├🔹©️ **Powered By:** [𝐌𝐨𝐯𝐢𝐞𝐬𝐬𝐬𝟒𝐞𝐫𝐬](https://t.me/Moviesss4ers)
 │
 ╰──────[ 😎 ]───────────⍟
 """
@@ -55,7 +55,7 @@ How to Use Bot & it's Benefits??
 
 ⚠️ **Benefits**: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue.
 
-🗣️ **For Example**: If Bot Get Banned & Deleted, Your All Links will Redirect to New Bot & All Files Are Still Accessable, Dont Worry Becouse You Don't have to Make any Changes Anywhere Because We Do 😎
+🗣️ **For Example**: If Bot Get Banned & Deleted, Your All Links will Redirect to New Bot & All Files Are Still Accessable, Dont Worry You Don't have to Make any Changes Anywhere Because We Do 😎
 
 ❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
 """
