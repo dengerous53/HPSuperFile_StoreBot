@@ -74,16 +74,13 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝕊𝕦𝕓𝕤𝕔𝕣𝕚𝕓𝕖", url="https://youtube.com/@TechnicalHPgamer")
+                        InlineKeyboardButton("Our Channel", url="https://t.me/Moviesss4ers"),
+                        InlineKeyboardButton(" Our Group", url="https://t.me/moviei43")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Hpbot_update"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/HP_Bot_discuss_group")
                     ]
                 ]
             )
@@ -318,10 +315,6 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/harshil8981/HPSuperFile_StoreBot")
-                    ],
-                    [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                     ]
@@ -336,12 +329,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/harshil8981/HPSuperFile_StoreBot")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
+                        InlineKeyboardButton("About Bot", callback_data="aboutbot")
                     ]
                 ]
             )
@@ -354,16 +343,13 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝕊𝕦𝕓𝕤𝕔𝕣𝕚𝕓𝕖", url="https://youtube.com/@TechnicalHPgamer")
+                        InlineKeyboardButton("Our Channel", url="https://t.me/Moviesss4ers"),
+                        InlineKeyboardButton(" Our Group", url="https://t.me/moviei43")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HP_Bot_discuss_group"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Hpbot_update")
                     ]
                 ]
             )
@@ -379,7 +365,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/HP_Bot_discuss_group).",
+                        text="Sorry Sir, You are Banned to use me. Contact our [Support Group](https://t.me/moviei43).",
                         disable_web_page_preview=True
                     )
                     return
@@ -401,7 +387,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/HP_Bot_discuss_group).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/moviei43).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,8 +397,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HP_Bot_discuss_group"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Hpbot_update")
+                        InlineKeyboardButton("Support Group", url="https://t.me/moviei43"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Moviesss4ers")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
